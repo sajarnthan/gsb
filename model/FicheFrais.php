@@ -14,6 +14,7 @@ class FicheFrais
     private $_montantValide;
     private $_dateModif;
     private $_idEtat; 
+    
     public function __construct(string $idVisiteur, string $mois, int $nbJustificatifs, float $montantValide, string $dateModif, string $idEtat)
     {
         $this->_idVisiteur = $idVisiteur;
