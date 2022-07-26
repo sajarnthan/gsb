@@ -9,11 +9,11 @@ class DaoConnexion{
     private static $db = "dbname=gsbfrais";
 
     //j'indique mon nom d'utilisateur 
-    private static $user = "sajarnthan";  
+    private static $user = "votre nom d'utilisateur";  
     
     //le mot de passe
 
-    private static $pwd = "JzDso7KEIf.bble.";
+    private static $pwd = "votre mot de passe";
 
     //definition de la connexion a la base de donnee
     protected static $link;
