@@ -1,0 +1,48 @@
+﻿<?php
+?>
+<html>
+  
+   <head>
+   <meta charset="UTF-8">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+      <title>formulaire de connexion</title>
+      <link rel="stylesheet" href="../css/bootstrap.css">
+      <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+      <!--
+		    <img src="logo.png" />
+      -->
+		</header>
+
+
+<div class="container">
+   
+   <form method="POST" action="index.php">   
+   <h1>Identification utilisateur</h1>
+    
+       <p>entrez votre login</p>
+       <input id="login" type="text" name="login"  size="30" maxlength="45">
+   
+    
+     <p>entrez votre password</p>
+     <input id="mdp"  type="password"  name="mdp" size="30" maxlength="45">
+
+
+
+     <input type="hidden" name="action" value="login"/>
+  
+   <div class="buttonfrais">
+  <input type="submit" value="Valider" name="submit" >
+
+
+</div>
+</div>
+
+</form>
+
+</body>
+
+</html>
